@@ -11,8 +11,8 @@ Source0: %{name}-%{version}.tar.bz2
 
 
 BuildRequires: cmake
-BuildRequires: gcc-c++
-BuildRequires: ninja-build
+BuildRequires: clang
+BuildRequires: ninja
 BuildRequires: qt6-qtbase-devel >= %{qt_version}
 BuildRequires: qt6-qtbase-private-devel
 %{?_qt6:Requires: %{_qt6}%{?_isa} = %{_qt6_version}}
